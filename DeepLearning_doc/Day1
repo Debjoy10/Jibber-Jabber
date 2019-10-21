@@ -1,0 +1,47 @@
+Classical NLP models
+1.If-else rules(Chatbot)
+2.Audio frequency components analysis(Speech recognition)
+3.Bag of words model(Classification)
+
+
+CNN for text Recognition(Classification)
+
+Seq2Seq
+
+End to end Deep Learning Models
+
+
+Neural networks-
+Deep Learning involves mimicing how the human brain works
+Neuron
+Input layer->Neuron/Node->Output layer
+Standardized/Normalize input variables
+Synapses are assigned Weights
+Weights are how neural networks learn
+Weighted sum of the values
+Then activation function is applied
+
+
+Activation Functions-
+Threshold function
+Sigmoid function
+Rectifier function
+Tanh(Hyperbolic tangent function)	
+
+
+Hidden Layers responsible for increased accuracy in neural nets
+Batch and stochastic gradient method
+Reinforcement learning and Batch learning
+
+Epochs
+
+
+Artificial Neural Networks-For regression and classification
+Recurrent Neural Networks-For time series analysis 
+Convolutional Neural Networks-For computer vision
+
+ANN-Temporal Lobe-Memory
+CNN-Occipital Lobe-Vision
+RNN-Frontal Lobe-Short term memory
+
+RNN-Neurons connected to themselves through time
