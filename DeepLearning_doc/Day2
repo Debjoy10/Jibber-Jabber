@@ -1,0 +1,52 @@
+Vanishing gradient problem
+Solution for exploding gradient problem-Truncated back propagation
+Penalties
+Gradient clipping
+
+Solution for vanishing gradient problem-
+Weight initialization
+Echo state networks
+Long Short Term Memory Networks(LSTMs)
+
+LSTM-
+Vector transfer
+Concatenate
+Copy
+Pointwise operation
+Neural netowrk layer operation
+
+LSTM Variations
+
+
+Issues with Bags of words model-
+Fixed size of input
+Order of words is not considered
+Fixed size of output
+
+
+Seq2Seq Architecture-Output remembers immediately preceding word
+
+Encoder and Decoder
+
+Weights are the same in a neural network.
+Hence training data and predicted data can have different sizes
+Weights trained through back propagation.
+
+All data stored in the EOS cell of input
+During model training,occuring word is given highest probability among bags of words
+
+
+Greedy decoding and beam search decoding
+Greedy decoding-(One word with highest probability)
+Beam search decoding-(Multiple words with highest probabilities)
+In beam search we select the sequence with highest joined probabilities
+In greedy decoding there is only one alternative-One with highest probability of first word
+Greedy and beam search might give different results
+Beam search mien pure sentence ka probability dekhte hai(har word ka consider karke)
+Greedy search mien sirf pehle word ka probability
+
+
+Attention mechanism-Use of context vector made from weights of input to predict a particular word in output(words where there is ambiguity,for example-pronouns-he/she)
+Global and local attention
+
+BLEU Score
