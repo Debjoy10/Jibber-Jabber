@@ -1,0 +1,95 @@
+POS tagging(Parts of Speech tagging)
+Involves determination of nouns,verbs,etc. in the sentence.
+For full list of abbreviations-
+https//www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html
+
+
+Stemming and Lemmitization
+dogs-dog
+jumping-jump
+
+Stemming is more rigid
+Wolves-Wolv
+
+Lemmatizer is more accurate
+Wolves-Wolf
+
+NER(Named Entity Recognition)
+Steve Jobs-Name
+Apple-Organization
+
+
+Latent semantic analysis(LSA)
+synonymy-multiple words with same meaning
+polysemy-one word with multiple meanings
+
+Syonymy can be solved with LSA
+Not that sure about polysemy
+
+LSA is basically SVD on the term-document matrix
+SVD and PCA
+PCA-Principal Component Analysis
+SVD-Singular Value Decomposition
+Matrix * Vector= Vector in possibly different direction(Same vectors in different coordinate system)
+Features of PCA-
+Decorrelates input data
+Transformed data is ordered by information content(First dimension carries most information,2nd carries 2nd most)
+Dimensionality reduction 
+Denoising/smoothing
+
+For more information on PCA-lazyprogrammer.me/tutorial-principal-components-analysis-pca/
+
+
+Wrote a program to perform SVD on a dataset which contained titles of books.
+An example of unsupervised learning.
+
+
+
+Article Spinning
+Holy grail of internet marketing.
+Automated
+Content generation
+Taking existing articles and modifying them so that new won't match original,for example,replacing words with their synonyms.
+Using trigrams-Use previous and next word to predict current word.
+Unsupervised learning
+The spun article doesn't make much sense.Hence we need to look more than the neighbouring words.
+We first made trigrams by assigning previous and next word to a tuple and the middle word is the value of that tuple in a list.
+Then we calculated probability of each word and then mapped it to its trigram.
+Now we took a random review and took words with probability less than 0.2 and replaced them with random words.
+
+
+Not covered topics:
+Edit distance-Insertion,deletion and substitution
+Parsing trees
+MaxEnt classifiers-Maximum Entropy
+
+
+
+
+
+
+Crash blossoms-Sentences with ambiguous meaning(Literal and figurative sense)
+Text processing-
+Regular Expressions-A formal language for specifying text strings
+Disjunctions-Woodchuck,woodchuck,woodchucks,Woodchucks
+[Ww]oodchuck
+Negation in disjunction
+[^Ab]-Not A or b
+
+looked | step = looked or step
+colou?r = Optional previous character = color or colour
+oo*h = O or more of previous character = oh or ooh or oooh or ooooh
+o+h= 1 or more of previous character = oh or ooh or oooh
+beg.n=begin or begun or beg3n
+^[A-Z]=letter at start of line
+[A-Z]$=letter at end of line
+
+
+Minimizing false positives and false negatives are our objectives
+
+
+
+
+
+ 
+ 

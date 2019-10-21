@@ -1,0 +1,38 @@
+Text normalization-
+Segmenting words
+Normalizing word formats
+Segmenting sentences
+
+I do uh main-mainly business data processing
+main-mainly-Fragments,filled pauses
+
+Seuss's cat in the hat is different from other cats !
+Lemma:same stem,part of speech,rough word sense.
+cat and cats=same lemma
+Wordform:The full inflected surface form
+cat and cats=different wordforms
+
+Type:all different words
+Token:all words
+N=Number of tokens
+V=Vocabulary size=Type size
+
+Basic Text Processing-
+Stemming and normalization
+Normalization-U.S.A and USA become same,window,windows and Windows mean same
+
+Morphology-
+Morphemes-The small meaningful units that make up words
+Stems-The core
+Affixes-Bits and pieces that adhere to stems
+
+
+Porter's algorithm(most common english stemmer)
+
+Sentence Segmentation
+Binary Classifier for .
+
+
+Minimum Edit Distance-(How similar are two strings)
+If edit distance very small,strings(words or sentences can be assumed to have the same meaning)
+
