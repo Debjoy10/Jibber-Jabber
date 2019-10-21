@@ -1,0 +1,14 @@
+1.Wrote 1st program on NLP-Build Your Own Spam Detector:
+Used Multinomial NaivesBayes and AdaBoost Ensemble to classify spam or non-spam
+Types of features-
+1.Word count
+2.Binary(1 if word appears,0 otherwise)
+3.TF-IDF(Term Frequency-Inverse Document Frequency)-Words like in,or which are present in all documents hence their word count doesn't matter
+Sklearn has these features
+
+2.Wrote 2nd program on sentiment analysis.
+Classification problem-Positive and negative reviews
+Used nltk to Lemmatamize(convert words like days to day,etc) the dataset.
+Removed stopwords(common words like in,the) and words with a small word length.
+Calculated the frequency of each token(word count) and applied Logistic Regression using the word count.
+Helped us to calculate the weight of each variable also.
